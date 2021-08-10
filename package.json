@@ -1,0 +1,22 @@
+{
+  "name": "typescript-data-structures",
+  "version": "1.0.0",
+  "description": "typescript data structures and algorithems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RaheemAbol/typescript-data-structures.git"
+  },
+  "author": "Raheem Abolfathzadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaheemAbol/typescript-data-structures/issues"
+  },
+  "homepage": "https://github.com/RaheemAbol/typescript-data-structures#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
