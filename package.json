@@ -4,7 +4,8 @@
   "description": "typescript data structures and algorithems",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "tsc-watch --noClear -p ./src/tsconfig.json --onSuccess \"node ./dist/server.js\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/RaheemAbol/typescript-data-structures#readme",
   "devDependencies": {
+    "nodemon": "^2.0.12",
+    "tsc-watch": "^4.4.0",
     "typescript": "^4.3.5"
   }
 }
