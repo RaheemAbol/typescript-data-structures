@@ -1,4 +1,4 @@
-/*
+
 class Node{
     constructor(val){
         this.val = val;
@@ -62,4 +62,4 @@ list.add("Middle")
 list.add("Tail")
 console.log(list.find(2))
 
-*/ 
+
